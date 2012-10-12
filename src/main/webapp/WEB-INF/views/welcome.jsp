@@ -16,7 +16,7 @@
 <body>
 <div class="container">  
   <h1>
-    <fmt:message key="welcome.title"/>
+    <fmt:message key="welcome.title"/>  
   </h1>
   <p>
     Locale = ${pageContext.response.locale}
