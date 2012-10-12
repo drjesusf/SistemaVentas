@@ -5,7 +5,7 @@
   <groupId>org.springframework.samples</groupId>
   <artifactId>mvc-ajax</artifactId>
   <name>mvc-ajax</name>
-  <packaging>war</packaging>
+  <packaging>war</packaging> 
   <version>1.0.0-SNAPSHOT</version>
   <properties>
     <org.springframework.version>3.0.5.RELEASE</org.springframework.version>
