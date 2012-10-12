@@ -1,7 +1,7 @@
 package org.springframework.samples.mvc.ajax.json;
 
 import java.io.IOException;
-
+ 
 import org.codehaus.jackson.JsonGenerator;
 import org.codehaus.jackson.JsonProcessingException;
 import org.codehaus.jackson.map.JsonSerializer;
@@ -10,7 +10,7 @@ import org.springframework.core.convert.ConversionService;
 import org.springframework.core.convert.TypeDescriptor;
 
 final class ConvertingSerializer extends JsonSerializer<Object> {
-
+ 
 	private final ConversionService conversionService;
 	
 	private final TypeDescriptor sourceType;
