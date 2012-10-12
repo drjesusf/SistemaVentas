@@ -1,5 +1,5 @@
 <%@page contentType="text/html;charset=UTF-8"%>
-<%@page pageEncoding="UTF-8"%>
+<%@page pageEncoding="UTF-8"%>  
 <%@ page session="false" %>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt" %>
@@ -26,7 +26,7 @@
     <li> <a href="?locale=en_us">us</a> |  <a href="?locale=en_gb">gb</a> | <a href="?locale=es_es">es</a> | <a href="?locale=de_de">de</a> </li>
   </ul>
   <ul>
-    <li><a href="account">Ajax @Controller Ejemplo</a></li>
+    <li><a href="account">Ajax @Controller Ejemplo II</a></li>
   </ul>
 </div>
 </body>
